@@ -63,10 +63,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\ClientObject.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Editor">
+      <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -80,11 +84,29 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.multiplayer-weaver.Editor">
+      <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+      <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -268,6 +290,12 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.1f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="AsyncIO">
+      <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Assets/AsyncIO.dll</HintPath>
+    </Reference>
+    <Reference Include="NetMQ">
+      <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Assets/NetMQ.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>/Users/kylewang/Desktop/Unity_Roll_A_Roll/Roll a Ball/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
