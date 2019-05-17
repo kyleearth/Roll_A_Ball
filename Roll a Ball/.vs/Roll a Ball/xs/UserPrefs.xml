@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{8F0A54F0-5A0E-B6A5-A79C-E691566A2314}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ClientObject.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/serverobjects.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="66" Column="53" />
-      <File FileName="Assets/Scripts/CameraController.cs" Line="17" Column="22" />
-      <File FileName="Assets/Scripts/Rotator.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ClientObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ServerO.cs" Line="94" Column="1" />
+      <File FileName="Assets/Scripts/serverobjects.cs" Line="64" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

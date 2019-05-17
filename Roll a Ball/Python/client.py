@@ -4,7 +4,7 @@ import time
 import random
 context = zmq.Context()
 socket = context.socket(zmq.REQ)
-socket.connect("tcp://localhost:54321")
+socket.connect("tcp://localhost:12347")
 
 TIMEOUT = 10000
 
@@ -21,4 +21,4 @@ while True:
 	time.sleep(0.5)
 	socket.close()
 	socket = context.socket(zmq.REQ)
-	socket.connect("tcp://localhost:54321")
+	socket.connect("tcp://localhost:12347")
